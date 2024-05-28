@@ -1,0 +1,49 @@
+/* start color & display */
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.d-flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.bg-ddd {
+    background-color: #FFC107;
+}
+
+/* end color/ */
+
+/* start sizing & padding & margin */
+.h-100v {
+    height: 100vh;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.ml-20 {
+    margin-left: -20px;
+}
+/* end sizing & padding */
+
+/* start borders & positions */
+.out-l {
+    border: 2px splid white;
+}
+.b-browe {
+    border: 5px solid var(--main-color);
+}
+.p-relative {
+    position: relative;
+}
+.p-abs {
+    position: absolute;
+}
+/* end borders */
